@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('img/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.wrapper{
+    width: 50%;
+    height: 60vh;
+    overflow: hidden;
+    border-radius: 5% 15% 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d6b8ff50;
+    box-shadow: -2px -14px 56px 12px#9f5afd;
+    -webkit-box-shadow: -2px -14px 56px 12px#9f5afd;
+    -moz-box-shadow: -2px -14px 56px 12px #9f5afd;
+    border: 1px solid #32194b;
+}
+.txts{
+    width:100%;
+    height:30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+span{
+    font-size:65px;
+    color:#f1e7fe;
+}
+.txt-1{
+    margin-bottom:50px;
+    font-size: 50px;
+    color: #d5b8ff;
+}
+.txt-2{
+    font-size: 35px;
+    color: #d5b8ff;
+}
+.txt-2 i{
+    cursor: pointer;
+}
+ul{
+    background-color: #d6b8ff86;
+    list-style:none;
+    position:absolute;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-direction: column;
+    width: 250px;
+    height:260px;
+    top: 58%;
+    left: 60%;
+    font-size:18px;
+    display:none;
+}
+ul li{
+    cursor: pointer;
+    border-bottom: 1px solid #32194b;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    transition: all 0.4s ease-in-out;
+}
+ul li:last-child{
+    border-bottom:none;
+}
+ul li:hover{
+    background-color: #32194b;
+    color:#f1e7fe;
+}
+a{
+    text-decoration: none;
+    color:#32194b;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s ease-in-out;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+a:hover{
+    color:#f1e7fe;
+}
